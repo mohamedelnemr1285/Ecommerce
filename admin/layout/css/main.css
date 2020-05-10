@@ -1,0 +1,277 @@
+body{
+    background-color: #f4f4f40c;
+    font-size: 15px;
+}
+
+/* Start Select Box */
+.selectboxit-container .selectboxit {
+    width: 615px;
+}
+
+.selectboxit.form-control.selectboxit-enabled.selectboxit-btn.selectboxit-open-up {
+    height: 39px;
+    line-height: 32px;
+}
+
+/* Start Login */
+.login{
+    width: 300px;
+    margin:100px auto;
+}
+
+.login .form-control{
+    margin-bottom: 10px;
+    background-color:#e3e5edf2;
+    }
+
+/* End Login */
+#navbarDropdownMenuLink{
+    margin-right: 35px;
+}
+
+.navbar-brand {
+    font-size: 1em;
+    padding-top: .5rem;
+    margin-left: 25px;
+}
+
+#navbarDropdownMenuLink{
+
+    font-weight: 600;
+}
+
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    margin-top: 0;
+    border: none;
+    border-radius: 0;
+    background-color: #aca8a3;
+    }
+
+    
+    /* strat member*/
+    .members{
+        position: relative;
+    }
+    .asterisk{
+        position: absolute;
+        right: 25px;
+        color: firebrick;
+        top: 5px;
+        font-size: x-large;
+    }
+
+    .members button{
+        margin-left: 145px;
+        
+    }
+    h1{
+        margin: 40px 0;
+        color: #666;
+        font-weight:bold;
+    }
+
+     .showpass.fa.fa-eye{
+        position: absolute;
+        top:10px;
+        right: -2px;
+
+    }
+
+    .thead{
+        background-color: gray;
+    }
+    .table{
+        box-shadow: 0 5px 5px #ccc;
+    }
+    .fa
+    {
+        position: relative;
+        right: 3px;
+        top:1px;
+    }
+    .Activate{
+        margin-left: 5px;
+    }
+        /* end member*/
+
+     /* Start Dashboard*/
+
+     .home-stats .stat{
+        border: 0 solid #666;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        box-shadow: 0 5px 5px #ccc;
+        color: cornsilk;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+     }
+
+
+     .home-stats .stat i{
+        font-size: 63px;
+        position: absolute;
+        right: 130px;
+        top: 36px;
+     }
+     .home-stats .stat .info{
+        float: right;     
+    }
+
+  
+     .home-stats .Members{
+
+        background-color: steelblue;
+     }
+     .home-stats .Pending{
+
+        background-color:darkorange;
+     }
+     .home-stats .Items{
+         background-color: slateblue;
+
+     }
+     .home-stats .Comments{
+         background-color: forestgreen;
+
+     }
+
+     .home-stats  span{
+         display: block;
+         font-size: 40px;
+     }
+
+     .home-stats  span a{
+
+        color: cornsilk;  
+        text-decoration: none;      
+     }
+    
+     .latest{
+         margin-top: 20px;
+     }
+
+     .latest .toggle-info{
+         color: #999;
+         cursor: pointer;
+     }
+     .latest .toggle-info:hover{
+        color: #444;
+    }
+     .latsted li{
+         padding: 8px ;
+         overflow: hidden;
+     }
+     .latsted li:nth-child(odd){
+         background-color:#eee;
+     }
+
+     .latsted li button{
+         padding: 2px 8px;
+         margin-right: 5px;
+     }
+
+     /* End Dashboard*/
+
+/*Start Categories*/
+.categories{
+    margin-top: 8px;
+}
+
+.categories .cat:last-of-type ~ hr{
+    display: none;
+}
+
+ hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.categories .cat{
+    position: relative;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.categories .cat .button-hidden {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: -140px;
+}
+.categories .cat .button-hidden a{
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.categories .cat:hover .button-hidden {
+    right: 10px;
+}
+
+.categories .sort a{
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.categories .sort .Activate{
+    color: firebrick;
+}
+.categories .add{
+    margin-top: 10px;
+}
+
+.card-body {
+    margin-top: -17px;
+    margin-bottom: -15px;
+}
+
+.categories .cat h3 {
+    cursor: pointer;
+}
+
+.categories .card-header span .Activate{
+    color: firebrick;
+}
+
+.categories .sort span{
+    cursor: pointer;
+}
+.categories .child{
+    color: #0abe0a;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.categories .children a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.categories .children .edit-child::before{
+    content: "- ";
+    font-weight: bold;
+}
+
+.categories .delete{
+    color: maroon;
+    display: none;
+
+}
+/*End Categories*/
+
+/* Start Items */
+
+.btn.btn-info.Activate {
+    margin-top: 3px;
+}
+
+.table thead th,.table th,
+.table td {
+    vertical-align: middle;
+}
+
+/* End Items */

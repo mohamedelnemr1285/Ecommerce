@@ -1,0 +1,394 @@
+html{
+    height: 1150px;
+}
+body{
+    background-color: #f4f4f40c;
+    font-size: 15px;
+}
+
+/* Start Select Box */
+.selectboxit-container .selectboxit {
+    width: 615px;
+}
+
+.selectboxit.form-control.selectboxit-enabled.selectboxit-btn.selectboxit-open-up {
+    height: 39px;
+    line-height: 32px;
+}
+
+
+#navbarDropdownMenuLink{
+    margin-right: 35px;
+}
+
+.navbar-brand {
+    font-size: 1em;
+    padding-top: .5rem;
+    margin-left: 25px;
+}
+
+#navbarDropdownMenuLink{
+
+    font-weight: 600;
+}
+
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    margin-top: 0;
+    border: none;
+    border-radius: 0;
+    background-color: #aca8a3;
+    }
+
+    
+    /* strat member*/
+       
+    .members button{
+        margin-left: 145px;
+        
+    }
+    h1{
+        margin: 40px 0;
+        color: #666;
+        font-weight:bold;
+    }
+
+     .showpass.fa.fa-eye{
+        position: absolute;
+        top:10px;
+        right: -2px;
+
+    }
+
+    .thead{
+        background-color: gray;
+    }
+    .table{
+        box-shadow: 0 5px 5px #ccc;
+    }
+    .fa
+    {
+        position: relative;
+        right: 3px;
+        top:1px;
+    }
+    .Activate{
+        margin-left: 5px;
+    }
+        /* end member*/
+
+     /* Start Dashboard*/
+
+     .home-stats .stat{
+        border: 0 solid #666;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        box-shadow: 0 5px 5px #ccc;
+        color: cornsilk;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+     }
+
+
+     .home-stats .stat i{
+        font-size: 63px;
+        position: absolute;
+        right: 130px;
+        top: 36px;
+     }
+     .home-stats .stat .info{
+        float: right;     
+    }
+
+  
+     .home-stats .Members{
+
+        background-color: steelblue;
+     }
+     .home-stats .Pending{
+
+        background-color:darkorange;
+     }
+     .home-stats .Items{
+         background-color: slateblue;
+
+     }
+     .home-stats .Comments{
+         background-color: forestgreen;
+
+     }
+
+     .home-stats  span{
+         display: block;
+         font-size: 40px;
+     }
+
+     .home-stats  span a{
+
+        color: cornsilk;  
+        text-decoration: none;      
+     }
+    
+     .latest{
+         margin-top: 20px;
+     }
+
+     .latest .toggle-info{
+         color: #999;
+         cursor: pointer;
+     }
+     .latest .toggle-info:hover{
+        color: #444;
+    }
+     .latsted li{
+         padding: 8px ;
+         overflow: hidden;
+     }
+     .latsted li:nth-child(odd){
+         background-color:#eee;
+     }
+
+     .latsted li button{
+         padding: 2px 8px;
+         margin-right: 5px;
+     }
+
+     /* End Dashboard*/
+
+/*Start Categories-back*/
+.categories{
+    margin-top: 8px;
+}
+
+.categories .cat:last-of-type ~ hr{
+    display: none;
+}
+
+ hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.categories .cat{
+    position: relative;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.categories .cat .button-hidden {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: -140px;
+}
+.categories .cat .button-hidden a{
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.categories .cat:hover .button-hidden {
+    right: 10px;
+}
+
+.categories .sort a{
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.categories .sort .Activate{
+    color: firebrick;
+}
+.categories .add{
+    margin-top: 10px;
+}
+
+.card-body {
+    margin-top: -17px;
+    margin-bottom: -15px;
+}
+
+.categories .cat h3 {
+    cursor: pointer;
+}
+
+.categories .card-header span .Activate{
+    color: firebrick;
+}
+
+.categories .sort span{
+    cursor: pointer;
+}
+
+/*End Categories*/
+
+/* Start Items */
+
+.btn.btn-info.Activate {
+    margin-top: 3px;
+}
+
+.table thead th,.table th,
+.table td {
+    vertical-align: middle;
+}
+
+/* End Items */
+
+
+/**** Start FrontEnd ****/
+
+.price-tag{
+ position: absolute;
+left: 5px;
+background-color: #a7abab;
+top: 5px;
+padding: 0 5px;
+font-weight: bold;
+}
+
+.upper-bar{
+    padding-top: 8px;
+    padding-bottom: 30px;   
+}
+
+.upper-bar a{
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.members{
+    position: relative;
+}
+
+.asterisk{
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    color: firebrick;
+    font-size: x-large;
+}
+
+.login-page form,
+.error
+{
+    max-width: 300px;
+    margin: auto; 
+}
+
+.login-page form input
+{
+    margin-bottom: 10px;
+}
+
+.login-page [data-class="login"].active{
+    color: #5b9af8;
+}
+
+.login-page [data-class="signin"].active{
+    color: #169851;
+}
+
+.login-page h1{
+    cursor: pointer;
+    color:#e4e7e7;
+}
+
+.login-page .signin{
+    display: none;
+}
+
+.error .msg{
+    padding: 10px;
+    text-align: left;
+    border-left:3px solid darkred;
+    border-right: 1px solid #aca8a3;
+    border-top: 1px solid #aca8a3;
+    border-bottom: 1px solid #aca8a3;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    background-color: #eee;
+    font-size: small;
+
+}
+
+/*
+Profile
+*/
+.block{
+    margin-top: 20px;
+}
+
+.my-ads h5.card-title,
+.my-ads p.card-text
+{
+    color: black;
+    text-align: center;
+}
+
+.info li{
+    padding: 5px 0;
+}
+
+.info ul li span,
+.span
+{
+    display: inline-block;
+    width: 140px;
+}
+
+.selectboxit.form-control.selectboxit-enabled.selectboxit-btn {
+    width: 335px;
+}
+
+.newad .asterisk {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    color: firebrick;
+    font-size: x-large;
+}
+
+.newad{
+
+    margin-bottom: 50px;
+}
+
+.item-info ul li span{
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+.item-info ul li{
+    margin-bottom: 8px;
+}
+
+.item-info ul li:nth-child(odd){
+    background-color: lightcyan;
+}
+
+.custom-hr{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-top: 3px solid rgba(37, 36, 36, 0.58);
+}
+
+.add-comment textarea{
+    display: block;
+    margin-bottom: 5px;
+    width: 400px;
+    height: 100px;
+}
+
+.my-info .dropdown{
+    display: inline-block;
+}
+
+.my-info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50% !important;
+}
